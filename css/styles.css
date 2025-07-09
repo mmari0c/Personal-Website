@@ -142,9 +142,10 @@ footer a:hover {
    max-width: 900px;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 700px) {
    .nav-items {
       justify-content: flex-end;
+      align-content: center;
    }
 }
 
