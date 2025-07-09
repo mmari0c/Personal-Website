@@ -1,0 +1,303 @@
+/* 
+Dark Green #3c8453
+Sandy Beige #bcaa96
+Dark Grey #222222
+Light Gray #d3d4d6
+Off-White $f6f6f6
+Off-White #f6f4ed
+
+*/
+
+/* GLOBAL STYLE */
+
+html {
+   box-sizing: border-box;
+   font-size: 62.5%;
+}
+
+*, *::before, *::after {
+   box-sizing: inherit;
+}
+
+html, body {
+   height: 100%;
+}
+
+@font-face {
+   font-family: 'GT Super Ds Trial Bd';
+   src: url('../fonts/GTSuperDsTrial-Bd.woff2') format('woff2'),
+       url('../fonts/GTSuperDsTrial-Bd.woff') format('woff');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Source Serif Pro';
+   src: url('../fonts/SourceSerifPro-Regular.woff2') format('woff2'),
+       url('../fonts/SourceSerifPro-Regular.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'So:hne';
+   src: url('../fonts/Sohne-Buch.woff2') format('woff2'),
+       url('../fonts/Sohne-Buch.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+
+body {
+   background: Off-White #f6f4ed;
+   margin: 0;
+   font-family: 'So:hne', sans-serif;
+   font-size: 1.5rem;
+   line-height: 1.4;
+}
+
+h1, h2, h3 {
+   font-family: 'GT Super Ds Trial Bd';
+   margin: 0;
+}
+
+h1 {
+   font-size: 3.6rem;
+   line-height: 0.85;
+}
+
+h2 {
+   font-size: 2.4rem;
+}
+
+h3 {
+   font-size: 1.8rem;
+}
+
+
+
+
+/* links */
+a {
+   color:#3c8453
+}
+a:hover {
+   color: #bcaa96;
+   text-decoration: none;
+}
+footer a {
+   color: #3c8453;
+   text-decoration: none;
+}
+footer a:hover {
+   color: #6b6b6b;
+}
+.BTN {
+   background: #3c8453;
+   color: #f6f6f6;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 1.2rem;
+   display: inline-block;
+   padding: 7px;
+   letter-spacing: 0.05em;
+   line-height: 1;
+   border-radius: 4px;
+}
+
+.content-wrapper {
+   margin: 0 auto;
+   padding: 30px;
+   max-width: 900px;
+}
+
+/* HOME 
+---------------------------------*/
+
+.home {
+   background: url(../images/bg-home-office-studio.jpg) no-repeat;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+}
+
+.home .content-wrapper {
+   flex: 1 0 auto;
+}
+
+.content-bg {
+   background: rgb(255 255 255 / 0.9);
+   padding: 30px; 
+}
+
+@media screen and (max-width: 650px) {
+   .home .content-wrapper {
+      padding: 10px
+   }
+   .content-bg {
+      padding: 20px;
+   }
+}
+
+/* RESUME 
+---------------------------------*/
+
+.resume header::before {
+   background: url(../images/bg-home-office-studio.jpg) center;
+   background-size: cover;
+   content: "";
+   display: block;
+   height: 375px;
+}
+
+.resume-section {
+   margin-bottom: 50px;
+}
+
+.resume-section h2 {
+   border-bottom: 2px dashed #d3d4d6;
+}
+
+.download-link {
+   position: fixed;
+   top: 5px;
+   left: 5px;
+   font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1200px) {
+   .download-link {
+      position: absolute;
+   }
+}
+
+@media screen and (max-width: 500px) {
+   .resume header::before {
+      height: 200px;
+   }
+   h1 {
+      font-size: 2.5rem; 
+   }
+   h2 {
+      font-size: 1.75rem;
+   }
+}
+
+/* Projects 
+---------------------------------*/
+.project-item {
+   margin: 30px 0;
+}
+
+.project-item img {
+   width: 300px;
+}
+
+@media screen and (min-width: 860px){
+   .project-item {
+      display: flow-root;
+   }
+   .project-item img {
+      float: left;
+      margin-right: 20px;
+   }
+}
+
+@media screen and (min-width: 650px) and (max-width: 859px){
+   .project-wrapper {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 20px;
+   }
+   .project-item img {
+      width: 100%;
+   }
+}
+
+@media screen and (max-width: 500px) {
+   .project-item img {
+      width: 100%;
+      margin-bottom: 10px;
+   }
+}
+
+
+
+
+/* Work Experience 
+---------------------------------*/
+.work-item {
+
+   margin: 30px 0;
+}
+.work-details p {
+   margin: 0;
+}
+
+@media screen and (min-width: 860px) {
+   .work-item {
+      display: grid;
+      grid-template-columns: 300px 2fr;
+      column-gap: 20px;
+   }
+   .work-summary p:first-child {
+      margin-top: 0;
+   }
+}
+
+/* Education
+---------------------------------*/
+.education-item {
+   margin: 30px 0;
+}
+
+.education-item p {
+   margin: 0;
+}
+
+
+
+
+/* FOOTER 
+---------------------------------*/
+footer {
+   background: white;
+   color: #6b6b6b;
+}
+
+.socials {
+   list-style-type: none;
+   padding: 0;
+}
+
+.socials li {
+   display: inline-block;
+   margin-left: 10px;
+}
+
+.socials img {
+   width: 32px;
+   opacity: 0.75;
+}
+
+.socials img:hover {
+   opacity: 0.5;
+}
+
+@media screen and (min-width: 860px) {
+   footer {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 20px;
+   }
+}
+
+@media screen and (max-width: 859px) {
+   footer {
+      text-align: center;
+      padding: 10px
+   }
+}
