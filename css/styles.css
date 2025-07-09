@@ -89,6 +89,16 @@ nav {
    border-bottom: black 1px solid;
 }
 
+.nav-left {
+   display: flex;
+}
+
+.nav-left img {
+   width: 90px;
+   margin-left: 10px;
+   transform: rotate(-10deg);
+}
+
 .nav-items {
    list-style-type: none;
    padding: 0;
