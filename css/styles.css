@@ -52,7 +52,7 @@ html, body {
 
 
 body {
-   background: Off-White #f6f4ed;
+   background: #FFFFF8;
    margin: 0;
    font-family: 'So:hne', sans-serif;
    font-size: 1.5rem;
@@ -65,7 +65,7 @@ h2, h3 {
 }
 
 h1 {
-   font-size: 3.6rem;
+   font-size: 3.2rem;
    line-height: 0.85;
    font-family: 'GT Super Ds Trial Bd', sans-serif;
 }
@@ -81,7 +81,7 @@ h3 {
 /* NAV */
 
 nav {
-   background: white;
+   background: #FFFFF8;
    color: black;
    display: flex;
    justify-content: space-between;
@@ -145,7 +145,7 @@ footer a:hover {
 ---------------------------------*/
 
 .home {
-   background: url(../images/bg-home-office-studio.jpg) no-repeat;
+   background: url(../images/21_0080_Bluebonnet\ battle\ flag0057\ \(2\).jpg) center;
    background-size: cover;
    display: flex;
    flex-direction: column;
@@ -156,7 +156,7 @@ footer a:hover {
 }
 
 .content-bg {
-   background: rgb(255 255 255 / 0.9);
+   background: rgb(255 255 248 / 0.9);
    padding: 30px;
    display: flex;
 }
@@ -178,7 +178,7 @@ footer a:hover {
 ---------------------------------*/
 
 .resume header::before {
-   background: url(../images/bg-home-office-studio.jpg) center;
+   background: url(../images/22_0555_Campus\ Stock0944\ \(2\).jpg) center;
    background-size: cover;
    content: "";
    display: block;
@@ -305,8 +305,12 @@ footer a:hover {
 /* FOOTER 
 ---------------------------------*/
 footer {
-   background: white;
+   background: #FFFFF8;
    color: #6b6b6b;
+}
+
+footer p {
+   align-content: space-around;
 }
 
 .socials {
