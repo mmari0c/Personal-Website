@@ -93,12 +93,6 @@ nav {
    display: flex;
 }
 
-.nav-left img {
-   width: 90px;
-   margin-left: 10px;
-   transform: rotate(-10deg);
-}
-
 .nav-items {
    list-style-type: none;
    padding: 0;
@@ -162,6 +156,12 @@ footer a:hover {
 /* HOME 
 ---------------------------------*/
 
+.home .nav-left img {
+   width: 90px;
+   margin-left: 10px;
+   transform: rotate(-10deg);
+}
+
 .home {
    background: url(../images/21_0080_Bluebonnet\ battle\ flag0057\ \(2\).jpg) center;
    background-size: cover;
@@ -206,6 +206,11 @@ footer a:hover {
 
 /* RESUME 
 ---------------------------------*/
+
+.resume .nav-left img {
+   width: 90px;
+   margin-left: 10px;
+}
 
 .resume header::before {
    background: url(../images/22_0555_Campus\ Stock0944\ \(2\).jpg) center;
