@@ -114,6 +114,7 @@ nav {
 
 .nav-left img {
    width: 75px;
+   margin-left: 10px;
 }
 
 /* links */
@@ -161,7 +162,6 @@ footer a:hover {
 ---------------------------------*/
 
 .home .nav-left img {
-   margin-left: 10px;
    transform: rotate(-10deg);
 }
 
