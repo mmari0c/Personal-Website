@@ -116,7 +116,7 @@ nav {
 }
 
 nav li a:hover {
-   background-color: #00853E;
+   background-color: #3c8453;;
    cursor: pointer;
    color: #FFFFF8;
 }
@@ -160,7 +160,7 @@ footer a {
 
 .content-wrapper {
    margin: 0 auto;
-   padding: 30px;
+   padding: 25px;
    max-width: 900px;
 }
 
@@ -233,6 +233,17 @@ footer a {
    display: block;
    height: 375px;
    border-bottom: black 1px solid;
+}
+
+.resume header ul {
+   list-style-type: none;
+   padding: 0;
+   display: flex;
+   justify-content: flex-start;
+}
+
+.resume header ul li {
+   margin-right: 20px;
 }
 
 .resume-section {
