@@ -166,7 +166,7 @@ footer a:hover {
 }
 
 .home {
-   background: url(../images/21_0080_Bluebonnet\ battle\ flag0057\ \(2\).jpg) center;
+   background: url(../images/bluebonnet-2400px.jpg) center;
    background-size: cover;
    display: flex;
    flex-direction: column;
@@ -197,6 +197,9 @@ footer a:hover {
 }
 
 @media screen and (max-width: 800px) {
+   .home {
+      background: url(../images/bluebonnet-2000px.jpg) top no-repeat;
+   }
    .content-bg {
       flex-direction: column;
       align-items: center;
@@ -211,7 +214,7 @@ footer a:hover {
 ---------------------------------*/
 
 .resume header::before {
-   background: url(../images/22_0555_Campus\ Stock0944\ \(2\).jpg) center;
+   background: url(../images/campus-photo-2400px.jpg) center;
    background-size: cover;
    content: "";
    display: block;
@@ -237,13 +240,26 @@ footer a:hover {
 @media screen and (max-width: 1200px) {
    .download-link {
       position: absolute;
-      top: 115px;
+      top: 90px;
    }
+}
+
+@media screen and (max-width: 800px) {
+   .resume header::before {
+      background: url(../images/campus-photo-1200px.jpg) center;
+   }
+}
+
+@media screen and (max-width: 570px) {
+   .download-link {
+      top: 90px;
+   }   
 }
 
 @media screen and (max-width: 500px) {
    .resume header::before {
-      height: 200px;
+      background: url(../images/campus-photo-600px.jpg) center;
+      height: 250px;
    }
    h1 {
       font-size: 2.5rem; 
@@ -251,6 +267,10 @@ footer a:hover {
    h2 {
       font-size: 1.75rem;
    }
+   .nav-left img {
+      width: 6rem;
+   }
+
 }
 
 /* Projects 
