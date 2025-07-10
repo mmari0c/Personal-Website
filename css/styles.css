@@ -112,6 +112,11 @@ nav {
    text-decoration: none;
 }
 
+.nav-left img {
+   width: 90px;
+   margin-left: 10px;
+}
+
 /* links */
 a {
    color:#3c8453
@@ -206,11 +211,6 @@ footer a:hover {
 
 /* RESUME 
 ---------------------------------*/
-
-.resume .nav-left img {
-   width: 90px;
-   margin-left: 10px;
-}
 
 .resume header::before {
    background: url(../images/22_0555_Campus\ Stock0944\ \(2\).jpg) center;
