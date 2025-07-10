@@ -113,8 +113,7 @@ nav {
 }
 
 .nav-left img {
-   width: 90px;
-   margin-left: 10px;
+   width: 75px;
 }
 
 /* links */
@@ -231,7 +230,7 @@ footer a:hover {
 
 .download-link {
    position: fixed;
-   top: 100px;
+   top: 90px;
    left: 5px;
    font-size: 1.5rem;
 }
@@ -239,6 +238,7 @@ footer a:hover {
 @media screen and (max-width: 1200px) {
    .download-link {
       position: absolute;
+      top: 115px;
    }
 }
 
