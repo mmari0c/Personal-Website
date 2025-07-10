@@ -139,9 +139,7 @@ footer a {
    color: #3c8453;
    text-decoration: none;
 }
-footer a:hover {
-   color: #6b6b6b;
-}
+
 .BTN {
    background: #3c8453;
    color: #f6f6f6;
@@ -153,6 +151,11 @@ footer a:hover {
    letter-spacing: 0.05em;
    line-height: 1;
    border-radius: 4px;
+}
+
+.BTN:hover {
+   background: #6b6b6b;
+   color: #f6f6f6;
 }
 
 .content-wrapper {
