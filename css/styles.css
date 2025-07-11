@@ -347,10 +347,17 @@ footer a {
 /* Work Experience 
 ---------------------------------*/
 .work-item {
-
-   margin: 30px 0;
+   margin: 35px 0;
 }
 .work-details p {
+   margin: 0;
+}
+
+.work-details p:nth-child(3) {
+   color: gray;
+}
+
+.work-summary ul {
    margin: 0;
 }
 
@@ -365,9 +372,7 @@ footer a {
    }
 }
 
-.work-details p:nth-child(3) {
-   color: gray;
-}
+
 
 /* Education
 ---------------------------------*/
