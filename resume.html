@@ -19,21 +19,16 @@
           <a href="index.html">Home</a>
         </li>
         <li>
-          <a href="resume.html">Resume</a>
+          <a href="#work-experience">Experience</a>
+        </li>
+        <li>
+          <a href="#project">Projects</a>
         </li>
       </ul>
     </nav>
     <a class="BTN download-link" target="_blank" href="images/Mario_Nolasco_Resume.pdf">View Resume PDF</a>
     <header>
       <!-- Start content edits below this line. -->
-       <div class="content-wrapper">
-        <h2>CS + Math Minor @ University of North Texas</h2>  
-        <ul>
-          <li><a class="BTN" href="#project">Projects</a></li>
-          <li><a class="BTN" href="#work-experience">Work Experience</a></li>
-          <li><a class="BTN" href="#education">Education</a></li>
-        </ul>      
-       </div>
       <!-- End content edits here. -->
     </header>
 
@@ -41,14 +36,18 @@
       <!-- //  PROFILE  // -->
       <section class="resume-section">
         <!-- Start content edits below this line. -->
-        <h2>Profile</h2>
-        <p>I'm a curious and driven student at the University of North Texas with a passion for combining technology and creativity. Experienced in web development, Python, SQL, and AI/ML, with a strong foundation in C/C++ and data structures & algorithms. Brings a diverse background across education, hospitality, and sales, including roles as a STEM instructor, AI/ML student fellow, and market vendor. Recognized for adaptability, strong communication skills, and a collaborative mindset. Always eager to learn new technologies and contribute to meaningful, real-world solutions.</p>
-        <!-- End content edits here. -->
-      </section>
-
-      <!-- //  PROJECTS  // -->
-
-
+        <h2>Overview</h2>
+        <p>
+          I'm a curious and driven Computer Science student at the University of North Texas with a passion for blending technology and creativity. I enjoy building things that make a difference, whether it's through AI-powered projects, full-stack web development, or helping others learn to code.
+        </p>
+        <p>
+          My experience spans teaching programming as a Supplementary Instructor and STEM Instructor, contributing to AI/ML projects as a student fellow, sales, hospitality, and even launching a few entrepreneurial ventures!.
+        </p>
+        <p>
+          I thrive on taking on projects that push me to learn, grow, and collaborate, especially in areas like artificial intelligence, machine learning, and web development.
+        </p>
+      </section>  
+      
       <!-- //  WORK EXPERIENCE  // -->
       <section class="resume-section">
         <h2 id="work-experience">Work Experience</h2>
@@ -135,70 +134,40 @@
             </div>
           </div>
 
-        </div>
-
-        
-        
-        
+        </div>  
       </section>
 
       <section id="project" class="resume-section">
         <!-- Start content edits below this line. -->
-        <h2 >Projects</h2>
-
+        <h2>Projects</h2>
+      
         <div class="project-wrapper">
-        <!-- To add more items, copy this whole <section></section> block-->
-          <section class="project-item">
-            <img src="images/test6.jpg"
-            srcset="images/test5.jpg 2x"
-            alt="Long road leading to hills">
-            <h3>NextStep: Job Application Tracker</h3>
-            <p>
-              Led development of a Flask-based web application to track job/internship applications, contributing to both front-end design and back-end implementation.
-            </p>
-            <!-- link to project -->
-            <a class="BTN" href="https://next-step.onrender.com/login" target="_blank">Check it out!</a>
-          </section>
-
-          <section class="project-item">
-            <img src="images/test3.jpg" srcset="images/test4.jpg 2x" alt="Long road leading to hills">
-            <h3>Weather Road Safety Classifier</h3>
-            <p>
-              Developed a computer vision model using PyTorch to assess road safety based on weather conditions and provides a safety score.
-            </p>
-            <!-- link to project -->
-            <a class="BTN" href="https://huggingface.co/spaces/Danhelo/Weather_classifier" target="_blank">Check it out!</a>
-          </section>
-         </div>
-        <!-- End content edits here. -->
-      </section>
-      <!-- //  EDUCATION & CERTIFICATIONS  // -->
-      <section id="education" class="resume-section">
-        <!-- Start content edits below this line.  -->
-        <h2 >Education</h2>
-
-        <!-- To add more items, copy this whole <section></section> block -->
-        <section class="education-item">
-          <h3>University of North Texas</h3>
-          <p>Bachlors of Science in Computer Science, Minor in Mathemathics</p>
-          <p>Aug. 2022 - Dec. 2026</p>
-          <p>At the University of North Texas, I’ve had the opportunity to grow technically, professionally, and creatively. Not just through my Computer Science coursework, but also through programs like the Professional Leadership Program (PLP) where I developed career and leadership skills alongside industry mentors, and Merch Inc, where I participated as a model in the semiannual student-run fashion show.</p>
-        </section>
-
-        <section class="education-item">
-          <h3>CodePath</h3>
-          <p>Web Development, iOS Development, & Technical Interview Prep</p>
-          <p>Sep. 2025</p>
-          <p>Recently accepted into CodePath’s Web Development, iOS Development, and Technical Interview Prep programs, which are designed to build full-stack development skills and strengthen problem-solving techniques for coding interviews.</p>
-        </section>
-
-        <section class="education-item">
-          <h3>Eastfield College</h3>
-          <p>Associates of Science</p>
-          <p>Aug. 2020 - May 2022</p>
-          <p>Dual-credit student completing both a high school diploma and an associate degree.</p>
-        </section>
-
+          <!-- To add more items, copy this whole <div></div> block-->
+          <div class="project-card">
+            <img src="images/resume-pixel-art.png" alt="Long road leading to hills">
+            <div class="card-content">
+              <h3>NextStep: Job Application Tracker</h3>
+              <p>
+                Led development of a Flask-based web application to track job/internship applications, contributing to both front-end design and back-end implementation.
+              </p>
+              <!-- link to project -->
+              <a class="BTN" href="https://next-step.onrender.com/login" target="_blank">Check it out!</a>
+            </div>
+          </div>
+      
+          <div class="project-card">
+            <img src="images/15.png" alt="Long road leading to hills">
+            <div class="card-content">
+              <h3>Weather Road Safety Classifier</h3>
+              <p>
+                Developed a computer vision model using PyTorch to assess road safety based on weather conditions and provides a safety score.
+              </p>
+              <!-- link to project -->
+              <a class="BTN" href="https://huggingface.co/spaces/Danhelo/Weather_classifier" target="_blank">Check it out!</a>
+            </div>
+            
+          </div>
+        </div>
         <!-- End content edits here. -->
       </section>
     </main>
