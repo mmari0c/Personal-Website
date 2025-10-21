@@ -184,6 +184,8 @@ footer a {
    background-size: cover;
    display: flex;
    flex-direction: column;
+   width: 100%;
+   height: 100%;
 }
 
 .home .content-wrapper {
@@ -369,7 +371,7 @@ footer a {
    padding: 20px;
    background: #FFFFF8;
    position: relative;
-   border-radius: 6px;
+   border-radius: 12px;
    font-size: 15px;
    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
    border: 1px solid;
