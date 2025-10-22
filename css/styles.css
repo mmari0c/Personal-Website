@@ -190,7 +190,10 @@ footer a {
 
 .home .content-wrapper {
    flex: 1 0 auto;
+   display: flex;
+   align-items: center;
 }
+
 
 .content-bg {
    background: rgb(255 255 248 / 0.9);
