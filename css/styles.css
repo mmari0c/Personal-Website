@@ -598,6 +598,8 @@ footer a {
    gap: 2rem;
    margin-top: 2rem;
    justify-items:center;
+   flex-wrap: wrap;
+   justify-content: space-between;
  }
  
  .project-card {
@@ -606,7 +608,8 @@ footer a {
    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
    overflow: hidden;
    transition: transform 0.3s ease, box-shadow 0.3s ease;
-   width: 350px;
+   width: 40rem;
+   height: 45rem;
    border: 1px solid;
  }
  
@@ -646,7 +649,24 @@ footer a {
    transition: background 0.1s ease;
    font-weight: 500;
  }
- 
+
+ .card-content .BTN {
+   padding: 1.5rem;
+ }
+/* 
+ .card-details {
+   height: 18rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+ }
+
+ .card-details .BTN {
+   width: 13rem;
+   text-align: center;
+   padding: 1.5rem
+ }
+  */
  /* Responsive adjustments */
  @media (max-width: 768px) {
    .project-wrapper {
