@@ -217,6 +217,7 @@ footer a {
    display: flex;
    width: 60rem;
    border-radius: 12px;
+   border: 1px solid black;
 }
 
 @media screen and (max-width: 650px) {
@@ -397,56 +398,28 @@ footer a {
    border: 1px solid;
 }
 
-.container:nth-child(1) .text-box {
-   border-color: #3C8453; /* Original green for UNT */
+.container .text-box {
+   border-color: black; /* Original green for UNT */
 }
 
-.container:nth-child(2) .text-box {
-   border-color: #f59e0b; /* Original orange for Goldenroot */
+.container:nth-child(1) .text-box h3 {
+   color: #04A1C7; /* Original green for UNT */
 }
 
-.container:nth-child(3) .text-box {
-   border-color: #6e8a55; /* Original olive green for Vestals */
-}
-.container:nth-child(4) .text-box {
-   border-color: #3C8453; /* Original green */
-}
-.container:nth-child(5) .text-box {
-   border-color: #920858; /* Original pink */
-}
-.container:nth-child(6) .text-box {
-   border-color: #092d73; /* Original blue */
-}
-.container:nth-child(7) .text-box {
-   border-color: #f10404; /* Original red */
+.container:nth-child(2) .text-box h3 {
+   color: #3C8453; /* Original orange for Goldenroot */
 }
 
-.container:nth-child(1) .text-box h2 {
-   color: #3C8453; /* Original green for UNT */
+.container:nth-child(3) .text-box h3 {
+   color: #FFC000; /* Original olive green for Vestals */
 }
 
-.container:nth-child(2) .text-box h2 {
-   color: #f59e0b; /* Original orange for Goldenroot */
-}
-
-.container:nth-child(3) .text-box h2 {
-   color: #6e8a55; /* Original olive green for Vestals */
-}
-
-.container:nth-child(4) .text-box h2 {
+.container:nth-child(4) .text-box h3 {
    color: #3C8453; /* Original green */
 }
 
-.container:nth-child(5) .text-box h2 {
+.container:nth-child(5) .text-box h3 {
    color: #920858; /* Original pink */
-}
-
-.container:nth-child(6) .text-box h2 {
-   color: #092d73; /* Original blue */
-}
-
-.container:nth-child(7) .text-box h2 {
-   color: #f10404; /* Original red */
 }
 
 .left-container {
@@ -467,27 +440,21 @@ footer a {
 }
 
 .container:nth-child(1) img {
-   border-color: #3C8453; /* Original green for UNT */
+   border-color: #04A1C7; /* Original green for UNT */
 }
 
 .container:nth-child(2) img {
-   border-color: #f59e0b; /* Original orange for Goldenroot */
+   border-color: #3C8453; /* Original orange for Goldenroot */
 }
 
 .container:nth-child(3) img {
-   border-color: #6e8a55; /* Original olive green for Vestals */
+   border-color: #FFC000; /* Original olive green for Vestals */
 }
 .container:nth-child(4) img {
    border-color: #3C8453; /* Original green */
 }
 .container:nth-child(5) img {
    border-color: #920858; /* Original pink */
-}
-.container:nth-child(6) img {
-   border-color: #092d73; /* Original blue */
-}
-.container:nth-child(7) img {
-   border-color: #f10404; /* Original red */
 }
 
 .right-container img {
@@ -509,13 +476,8 @@ footer a {
   z-index: -1;
   /* Remove: animation: moveline 6s linear forwards; */
   background: linear-gradient(to bottom, 
-  #3C8453 0%, #3C8453 5%, 
-  #f59e0b 10%, #ab7c39 20%,
-  #6e8a55 25%, #6e8a55 35%,
-  #3C8453 40%, #3C8453 45%, 
-  #920858 55%, #920858 65%,
-  #092d73 70%, #092d73 75%,
-  #f10404 85%, #f10404 100%);
+  black 100%, black 0%);
+
   transition: height 0.1s ease-out; /* Smooth scroll updates */
 }
 
@@ -636,7 +598,7 @@ footer a {
  
  .card-content p {
    margin: 0 0 1.5rem 0;
-   color: #666;
+   color: black;
    line-height: 1.6;
  }
  
@@ -652,6 +614,10 @@ footer a {
 
  .card-content .BTN {
    padding: 1.5rem;
+ }
+
+ .text-extra {
+   color: #666;
  }
 /* 
  .card-details {
