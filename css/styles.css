@@ -261,7 +261,11 @@ footer a {
 @media screen and (max-width: 450px) {
    .nav-items {
       align-items: flex-end;
-   }  
+   }
+   
+   .content-bg {
+      margin-top: 20px;
+   }
 
    nav {
       padding: 0;
