@@ -239,6 +239,7 @@ footer a {
    .content-bg {
       flex-direction: column;
       align-items: center;
+      width: auto;
    }
    .content-bg img {
       margin-left: 0;
