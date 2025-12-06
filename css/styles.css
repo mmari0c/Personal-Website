@@ -259,6 +259,10 @@ footer a {
 }
 
 @media screen and (max-width: 450px) {
+   .content-bg {
+      height: fit-content;
+   }
+
    .nav-items {
       align-items: flex-end;
    }
