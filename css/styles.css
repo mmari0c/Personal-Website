@@ -270,10 +270,14 @@ footer a {
 
    nav {
       padding: 0;
-      position: absolute;
    }
 }
 
+@media screen and (max-width: 350px) {
+   .hidden-text {
+      display: none;
+   }
+}
 
 
 /* RESUME 
