@@ -262,17 +262,10 @@ footer a {
    .nav-items {
       align-items: flex-end;
    }
-   
-   .content-bg {
-      margin-top: 20px;
-   }
-
-   .content-wrapper {
-      margin-top: 80px;
-   }
 
    nav {
       padding: 0;
+      position: absolute;
    }
 }
 
