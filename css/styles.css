@@ -66,8 +66,9 @@ h2, h3 {
 }
 
 h1 {
-   line-height: 0.85;
+   line-height: normal;
    font-family: 'GT Super Ds Trial Bd', sans-serif;
+   margin-left: 1rem;
 }
 
 h2 {
@@ -94,6 +95,7 @@ nav {
 
 .nav-left {
    display: flex;
+   align-items: center;
 }
 
 .nav-items {
@@ -104,11 +106,11 @@ nav {
    flex-direction: row;
    justify-content: center;
    flex-wrap: wrap;
+   gap: 0.5rem;
 }
 
 .nav-items li {
    display: inline-block;
-   margin: 0 10px;
 }
 
 .nav-items a {
@@ -126,7 +128,6 @@ nav li a:hover {
 
 .nav-left img {
    width: 75px;
-   margin-left: 10px;
 }
 
 /* links */
@@ -218,6 +219,7 @@ footer a {
    width: 60rem;
    border-radius: 12px;
    border: 1px solid black;
+   max-width: fit-content;
 }
 
 @media screen and (max-width: 650px) {
@@ -242,6 +244,29 @@ footer a {
       margin-top: 20px;
    }
 }
+
+@media screen and (max-width: 750px) {
+   .nav-items {
+      flex-direction: column;
+      align-items: flex-end;
+   }
+
+   h1 {
+      max-width: 10rem;
+   }
+}
+
+@media screen and (max-width: 450px) {
+   .nav-items {
+      align-items: flex-end;
+   }  
+
+   nav {
+      padding: 0;
+   }
+}
+
+
 
 /* RESUME 
 ---------------------------------*/
@@ -316,9 +341,6 @@ footer a {
    }
    h1 {
       font-size: 2.5rem; 
-   }
-   h2 {
-      font-size: 1.75rem;
    }
    .nav-left img {
       width: 6rem;
@@ -545,10 +567,17 @@ footer a {
    .left-container img, .right-container img {
       left: 10px;
    }
-   .left-container-arrow, .right-container-arrow {
-      border-right: 15px solid #fff;
-      border-left: 0;
+   .left-container-arrow {
+      height: 0;
+      width: 0;
+      position: absolute;
+      top: 28px;
+      z-index: 1;
+      border-top: 15px solid transparent;
+      border-bottom: 15px solid transparent;
+      border-right: 15px solid black;
       left: -15px;
+      border-left: none;
    }
 }
 
@@ -561,7 +590,7 @@ footer a {
    margin-top: 2rem;
    justify-items:center;
    flex-wrap: wrap;
-   justify-content: space-between;
+   justify-content: center;
  }
  
  .project-card {
@@ -692,4 +721,11 @@ footer p {
       text-align: center;
       padding: 10px
    }
+}
+
+@media screen and (max-width: 1250px) {
+   .main-img {
+      display: none;
+   }
+   
 }
