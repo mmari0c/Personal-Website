@@ -221,6 +221,7 @@ footer a {
    border: 1px solid black;
    max-width: fit-content;
    width: 60rem;
+   position:relative;
 }
 
 @media screen and (max-width: 650px) {
