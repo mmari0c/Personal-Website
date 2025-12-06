@@ -267,6 +267,10 @@ footer a {
       margin-top: 20px;
    }
 
+   .content-wrapper {
+      margin-top: 80px;
+   }
+
    nav {
       padding: 0;
    }
